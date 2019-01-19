@@ -2,10 +2,10 @@ import pymysql.cursors
 
 # 连接数据库
 connect = pymysql.Connect(
-    host='193.112.159.86',
+    host='193.112.159.10',
     port=3306,
     user='root',
-    passwd='Lgq!@#123',
+    passwd='123',
     db='bigdata',
     charset='utf8'
 )
