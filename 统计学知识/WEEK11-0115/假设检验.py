@@ -15,7 +15,7 @@ import pandas as pd
 引申出来的点：你要怎么向运营或者产品的同事展示数据结果？
 '''
 
-df = pd.read_csv('test.csv',header=None,names=['体温','性别','心率'])
+df = pd.read_csv('test.csv', header=None, names=['体温', '性别', '心率'])
 print(df.describe())
 ## 问题1结论：可以看到 体温的均值为 98.25 F
 '''

@@ -12,7 +12,7 @@ from scipy import stats
 体温和心率是否有相关性？
 '''
 
-data = pd.read_csv('test.csv',header=None,names=['Temperature','Gender','HeartRate'])
+data = pd.read_csv('test.csv', header=None, names=['Temperature', 'Gender', 'HeartRate'])
 print(data.describe())
 
 # 计算置信区间温度的置信区间：

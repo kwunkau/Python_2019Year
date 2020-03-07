@@ -4,7 +4,7 @@ from scipy import stats
 import seaborn as sns
 from matplotlib import pyplot as plt
 
-data = pd.read_excel("../1214-WEEK7/data/data.xlsx")
+data = pd.read_excel("../WEEK7-1214/data/data.xlsx")
 age = data['Age']
 # print(age.describe())       ## mean：29.642093
 age_sam = age.sample(100)   ## 抽取100个样本
